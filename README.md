@@ -2,7 +2,7 @@
 
 <div align="center">
 
-Aplicativo Android desenvolvido em Java que consome a API https://www.balldontlie.io
+Aplicativo Android desenvolvido em Java que consome a API BallDontLie
 
 Segue um vídeo da apresentação do APP para a turma de Programação para Dispostivos Móveis II
 
