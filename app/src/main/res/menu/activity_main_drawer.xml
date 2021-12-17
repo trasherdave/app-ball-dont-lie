@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/inicio"
+            android:title="@string/in_cio" />
+
+        <item
+            android:id="@+id/nav_descricao"
+            android:icon="@drawable/description"
+            android:title="@string/descri_es_dos_jogos" />
+        <item
+            android:id="@+id/nav_time_casa"
+            android:icon="@drawable/bola"
+            android:title="@string/times_de_casa" />
+        <item
+            android:id="@+id/nav_time_visitante"
+            android:icon="@drawable/bola"
+            android:title="@string/times_visitantes" />
+        <item
+            android:id="@+id/nav_resultado"
+            android:icon="@drawable/scoreboard"
+            android:title="@string/resultados_dos_jogos" />
+        <item
+            android:id="@+id/nav_ganhador"
+            android:icon="@drawable/trophy"
+            android:title="@string/times_ganhadores" />
+
+    </group>
+</menu>

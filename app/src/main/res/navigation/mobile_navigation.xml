@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.appballdontlie.ui.home.HomeFragment"
+        android:label="Início"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_descricao"
+        android:name="com.example.appballdontlie.ui.descricao.DescricaoFragment"
+        android:label="Descrições dos Jogos"
+        tools:layout="@layout/fragment_descricao" />
+
+    <fragment
+        android:id="@+id/nav_time_casa"
+        android:name="com.example.appballdontlie.ui.timeDeCasa.TimeDeCasaFragment"
+        android:label="Times de Casa"
+        tools:layout="@layout/fragment_time_casa" />
+
+    <fragment
+        android:id="@+id/nav_time_visitante"
+        android:name="com.example.appballdontlie.ui.timeVisitante.TimeVisitanteFragment"
+        android:label="Times Visitantes"
+        tools:layout="@layout/fragment_time_visitante" />
+
+    <fragment
+        android:id="@+id/nav_resultado"
+        android:name="com.example.appballdontlie.ui.resultado.ResultadoFragment"
+        android:label="Resultados dos Jogos"
+        tools:layout="@layout/fragment_resultado" />
+
+    <fragment
+        android:id="@+id/nav_ganhador"
+        android:name="com.example.appballdontlie.ui.ganhador.GanhadorFragment"
+        android:label="Times Ganhadores"
+        tools:layout="@layout/fragment_ganhador" />
+</navigation>
